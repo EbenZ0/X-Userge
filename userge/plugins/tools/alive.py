@@ -13,6 +13,7 @@ from pyrogram.errors.exceptions.bad_request_400 import BadRequest, ChannelInvali
 from userge.core.ext import RawClient
 from userge import userge, Message, Config, versions, get_version
 
+_DEFAULT = "https://t.me/xuserge/3"
 LOGO_ID, LOGO_REF = None, None
 
 
